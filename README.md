@@ -1,14 +1,14 @@
 # commands
 
 # check docker images
-docker images
+1. docker images
 
-# Docker
+# Dockerfile
 ----------------------------------------------
-FROM openjdk:17
-EXPOSE 9090
-ADD target/docker-demo-test.jar docker-demo-test.jar
-ENTRYPOINT ["java","-jar","/docker-demo-test.jar"]
+1. FROM openjdk:17
+2. EXPOSE 9090
+3. ADD target/docker-demo-test.jar docker-demo-test.jar
+4. ENTRYPOINT ["java","-jar","/docker-demo-test.jar"]
 
 # docker spring boot
 --------------------------------------------
